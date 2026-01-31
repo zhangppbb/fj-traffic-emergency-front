@@ -1,0 +1,103 @@
+.progress-event-handler-container {
+  padding: px2vh(10) px2vw(16);
+  color: #fff;
+  font-size: px2vw(12);
+  // 事件
+  & > .progress-event-container {
+    height: px2vw(40);
+    border-radius: px2vw(40);
+    border: 1px solid rgba(255,0,0,1);
+    background: radial-gradient(
+  circle at 50% 50%,
+  rgba(255, 0, 0, 1) 0%,
+  rgba(255, 0, 0, 0) 100%
+);
+    .icon {
+      width: px2vw(24);
+      height: px2vw(24);
+      margin-right: px2vw(8);
+    }
+
+    .text {
+  font-size: px2vw(14);
+    }
+  }
+
+
+  // 事件进度
+  & > .progress-container {
+    margin-top: px2vh(14);
+    .report-time {
+
+    }
+
+    .bar-container {
+      width: px2vw(118);
+      height: px2vw(12);
+      border-radius: px2vw(12);
+      background-color: #333333;
+
+      .progress-bar {
+        height: 100%;
+        border-radius: px2vw(12);
+        border-radius: px2vw(12);
+        background-color: #F9D27F;
+      }
+    }
+  }
+
+  // 流程
+  & > .process-flow-container {
+    justify-content: space-around;
+     margin-top: px2vh(20);
+
+    .process-flow-item {
+      width: 100%;
+      position: relative;
+      .process-flow-item-point {
+        width: px2vw(20);
+        height: px2vw(20);
+        border-radius: 50%;
+        background-color: #fff;
+        .process-flow-point {
+          border: 1px solid #1684FC;
+          width: px2vw(14);
+          height: px2vw(14);
+          border-radius: 50%;
+          position: relative;
+        }
+        .process-flow-point::after {
+          content: '';
+          position: absolute;
+          display: block;
+          width:  px2vw(6);
+          height:  px2vw(6);
+          border-radius: 50%;
+          z-index: 2;
+          top: 50%;
+          background-color: #1684FC;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+
+
+      .process-info-container {
+        font-size: px2vw(14);
+      }
+    }
+    .process-flow-item::after {
+      content: '';
+      position: absolute;
+      width: calc(100% - #{px2vw(20)});
+      border: 1px solid #fff;
+      top: calc(#{px2vw(10)} - 1px);
+      left: px2vw(20);
+      z-index: 1;
+     }
+
+     .process-flow-item.dashed::after {
+      border-style: dashed;
+     }
+  }
+}

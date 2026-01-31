@@ -1,0 +1,23 @@
+.influence-container {
+  height: px2vh(100);
+  & > .influence-item{
+    .value-container {
+      align-items: baseline;
+      color: #82D1F6;
+      .icon {
+        height: px2vh(29);
+        margin-right: px2vw(5);
+      }
+      .value {
+        font-size: px2vw(28);
+      }
+    }
+
+
+    .name {
+      font-size: px2vw(16);
+      color: #fff;
+      margin-top: px2vh(10);
+    }
+  }
+}

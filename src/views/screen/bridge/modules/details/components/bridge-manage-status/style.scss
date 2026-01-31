@@ -1,0 +1,14 @@
+.bridge-manage-status-container {
+  color: #fff;
+  padding: px2vh(20);
+
+  & > .info-container {
+    margin-bottom: px2vh(4);
+    font-size: px2vw(16);
+    .value {}
+    .text {}
+  }
+  & > .info-container:last-of-type {
+    margin-bottom: 0;
+  }
+}

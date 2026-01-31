@@ -1,0 +1,46 @@
+.beam-technical-params {
+  padding: px2vh(16) px2vw(16);
+  // Table
+  // Table
+  & > .table-container {
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+    // margin-top: px2vh(12);
+    .waring-point-table {
+    color: #fff;
+    font-size: px2vw(14);
+    // color: #9CA3BD;
+    .td-body-container {
+    }
+
+    .td-body {
+      // background: rgba(0,54,130,0.4);
+      background: rgba(0,54,130,0.21);
+      // background: linear-gradient(180deg, rgba(13,97,157,0.5) 100%,rgba(0,88,154,0.45) 2%);
+    }
+
+    // 单元格
+    .cell {
+      height: px2vh(36);
+      text-align: center;
+      line-height: px2vw(36);
+    }
+    .cell.name {
+      width: 40%;
+    }
+
+    .cell.status {
+      width: 60%;
+    }
+    & > .table-header {
+      position: relative;
+      z-index: 1;
+      & > .cell {
+        // background-color: rgba(0,78,148,0.56);
+        background-color: rgba(0,78,148,0.56);
+      }
+    }
+  }
+  }
+}

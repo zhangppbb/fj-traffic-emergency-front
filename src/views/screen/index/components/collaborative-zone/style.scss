@@ -1,0 +1,164 @@
+.collaborative-zone-component {
+  padding:  px2vw(16);
+  .collaborative-zone-user.header {
+    margin-bottom: px2vh(20);
+  }
+  .collaborative-zone-user {
+    color: #fff;
+    font-size: px2vw(12);
+    .avatar-icon {
+      width: px2vh(60);
+      height: px2vh(60);
+      margin-right: px2vw(14);
+    }
+
+    .user-info-container {
+      .info-container {
+        .name {
+          margin-right: px2vw(8);
+        }
+      }
+      .status-container  {
+        .status {
+          width: px2vh(16);
+          height: px2vh(16);
+          position: relative;
+          border-radius: 50%;
+          background-color: #D8E6CC;
+        }
+        .status.online {
+          background-color: #D8E6CC;
+        }
+        .status.online::after {
+          background-color: #86B262;
+        }
+
+         .status.offline {
+          background-color: #E7C1BA;
+        }
+        .status.offline::after {
+          background-color: #CD442B;
+        }
+
+          .status.busy {
+          background-color: #F9F7B9;
+        }
+        .status.busy::after {
+          background-color: #F0EA55;
+        }
+        .status::after {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          width: 80%;
+          height: 80%;
+          border-radius: 50%;
+          background:#86B262;
+        }
+
+        .type {
+          margin-left: px2vw(8);
+        }
+      }
+    }
+  }
+
+  .collaborative-zone-content-container {
+    // 指挥员列表
+    & > .user-list-container{
+
+      & > .collaborative-zone-user-item {
+        margin-right: px2vw(20);
+
+        .user-info-container {
+        margin-top: px2vh(4);
+        }
+      }
+       & > .collaborative-zone-user-item:last-of-type {
+        margin-right: 0;
+       }
+    }
+  }
+
+  .instruction-new {
+    margin-top: px2vh(10);
+
+    .waring-point-table {
+    color: #c4e5ff;
+    font-size: px2vw(12);
+
+    .td-body-container {
+      overflow: hidden;
+    }
+
+    .td-body {
+      background: rgba(0,54,130,0.51);
+
+
+      .cell.point {
+        color: #dab552;
+      }
+      .cell.level {
+        color: #da7f52;
+      }
+    }
+
+    // 单元格
+    .cell {
+      height: px2vh(24);
+      text-align: center;
+      line-height: px2vw(24);
+    }
+    .cell.index {
+      width: 10%;
+    }
+    .cell.datetime {
+      width: 30%;
+    }
+    .cell.type {
+      width: 20%;
+    }
+    .cell.upload {
+      width: 30%;
+    }
+
+    .cell.status {
+      width: 10%;
+    }
+    & > .table-header {
+      position: relative;
+      & > .cell {
+        background-color: rgba(0,78,148,0.36);
+
+      }
+    }
+
+    & > .table-header::after,
+    & > .table-header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: px2vw(2); /* 上边框厚度 */
+      width: 100%;
+      // background: linear-gradient(
+      //   to right,
+      //   #00c3ff,
+      //   #4cb5c7,
+      //   #010404,
+      //   #4cb5c7,
+      //   #00c3ff
+      // );
+      z-index: 2;
+    }
+
+    // & > .table-header::after {
+    //   bottom: 0!important;
+    // }
+  }
+  }
+
+}

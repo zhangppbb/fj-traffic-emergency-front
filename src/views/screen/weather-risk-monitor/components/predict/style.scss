@@ -1,0 +1,10 @@
+.predict-container {
+  height: px2vh(100);
+  padding: 0 px2vw(10);
+  & > .predict-item {
+    .name {
+      font-size: px2vw(14);
+      color: #fff;
+    }
+  }
+}

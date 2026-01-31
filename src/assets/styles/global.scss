@@ -1,0 +1,325 @@
+
+.gis-ys-font {
+  font-family: YouSheBiaoTiHei;
+  font-size: px2vw(18);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(top, #FDFFFF, #FFD1B0);
+}
+
+.text-link {
+  color: $Brand_color;
+}
+.overflow-with-ellipsis {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.gap-xs-vw {
+  gap: $spacing-xs-vw;
+}
+.gap-sm-vw {
+  gap: $spacing-sm-vw;
+}
+.gap-md-vw {
+  gap: $spacing-md-vw;
+}
+.gap-lg-vw {
+  gap: $spacing-lg-vw;
+}
+.gap-xl-vw {
+  gap: $spacing-xl-vw;
+}
+
+// Spacing (Margin and Padding) for $spacing-model-vw
+.m-model-vw {
+  margin: $spacing-model-vw;
+}
+
+.p-model-vw {
+  padding: $spacing-model-vw;
+}
+
+// Spacing (Margin and Padding) for vertical and horizontal directions
+.mb-model-vw {
+  margin-bottom: $spacing-model-vw;
+}
+
+.mt-model-vw {
+  margin-top: $spacing-model-vw;
+}
+
+.ml-model-vw {
+  margin-left: $spacing-model-vw;
+}
+
+.mr-model-vw {
+  margin-right: $spacing-model-vw;
+}
+
+.pb-model-vw {
+  padding-bottom: $spacing-model-vw;
+}
+
+.pt-model-vw {
+  padding-top: $spacing-model-vw;
+}
+
+.pl-model-vw {
+  padding-left: $spacing-model-vw;
+}
+
+.pr-model-vw {
+  padding-right: $spacing-model-vw;
+}
+
+// Spacing (Margin and Padding)
+.m-xs-vw {
+  margin: $spacing-xs-vw;
+}
+.m-sm-vw {
+  margin: $spacing-sm-vw;
+}
+.m-md-vw {
+  margin: $spacing-md-vw;
+}
+.m-lg-vw {
+  margin: $spacing-lg-vw;
+}
+.m-xl-vw {
+  margin: $spacing-xl-vw;
+}
+
+.p-xs-vw {
+  padding: $spacing-xs-vw;
+}
+.p-sm-vw {
+  padding: $spacing-sm-vw;
+}
+.p-md-vw {
+  padding: $spacing-md-vw;
+}
+.p-lg-vw {
+  padding: $spacing-lg-vw;
+}
+.p-xl-vw {
+  padding: $spacing-xl-vw;
+}
+
+// Specific Margins
+.mt-xs-vw {
+  margin-top: $spacing-xs-vh;
+}
+.mt-sm-vw {
+  margin-top: $spacing-sm-vh;
+}
+.mt-md-vw {
+  margin-top: $spacing-md-vh;
+}
+.mt-lg-vw {
+  margin-top: $spacing-lg-vh;
+}
+.mt-xl-vw {
+  margin-top: $spacing-xl-vh;
+}
+
+.mb-xs-vw {
+  margin-bottom: $spacing-xs-vh;
+}
+.mb-sm-vw {
+  margin-bottom: $spacing-sm-vh;
+}
+.mb-md-vw {
+  margin-bottom: $spacing-md-vh;
+}
+.mb-lg-vw {
+  margin-bottom: $spacing-lg-vh;
+}
+.mb-xl-vw {
+  margin-bottom: $spacing-xl-vh;
+}
+
+// Specific Padding
+.pt-xs-vw {
+  padding-top: $spacing-xs-vh;
+}
+.pt-sm-vw {
+  padding-top: $spacing-sm-vh;
+}
+.pt-md-vw {
+  padding-top: $spacing-md-vh;
+}
+.pt-lg-vw {
+  padding-top: $spacing-lg-vh;
+}
+.pt-xl-vw {
+  padding-top: $spacing-xl-vh;
+}
+
+.pb-xs-vw {
+  padding-bottom: $spacing-xs-vh;
+}
+.pb-sm-vw {
+  padding-bottom: $spacing-sm-vh;
+}
+.pb-md-vw {
+  padding-bottom: $spacing-md-vh;
+}
+.pb-lg-vw {
+  padding-bottom: $spacing-lg-vh;
+}
+.pb-xl-vw {
+  padding-bottom: $spacing-xl-vh;
+}
+
+.pl-xs-vw {
+  padding-left: $spacing-xs-vw;
+}
+.pl-sm-vw {
+  padding-left: $spacing-sm-vw;
+}
+.pl-md-vw {
+  padding-left: $spacing-md-vw;
+}
+.pl-lg-vw {
+  padding-left: $spacing-lg-vw;
+}
+.pl-xl-vw {
+  padding-left: $spacing-xl-vw;
+}
+
+.pr-xs-vw {
+  padding-right: $spacing-xs-vw;
+}
+.pr-sm-vw {
+  padding-right: $spacing-sm-vw;
+}
+.pr-md-vw {
+  padding-right: $spacing-md-vw;
+}
+.pr-lg-vw {
+  padding-right: $spacing-lg-vw;
+}
+.pr-xl-vw {
+  padding-right: $spacing-xl-vw;
+}
+
+// Left and Right Spacing
+.mt-xs-vw {
+  margin-top: $spacing-xs-vw;
+}
+.mt-sm-vw {
+  margin-top: $spacing-sm-vw;
+}
+.mt-md-vw {
+  margin-top: $spacing-md-vw;
+}
+.mt-lg-vw {
+  margin-top: $spacing-lg-vw;
+}
+.mt-xl-vw {
+  margin-top: $spacing-xl-vw;
+}
+
+.mb-xs-vw {
+  margin-bottom: $spacing-xs-vw;
+}
+.mb-sm-vw {
+  margin-bottom: $spacing-sm-vw;
+}
+.mb-md-vw {
+  margin-bottom: $spacing-md-vw;
+}
+.mb-lg-vw {
+  margin-bottom: $spacing-lg-vw;
+}
+.mb-xl-vw {
+  margin-bottom: $spacing-xl-vw;
+}
+
+.ml-xs-vw {
+  margin-left: $spacing-xs-vw;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-sm-vw {
+  margin-left: $spacing-sm-vw;
+}
+.ml-md-vw {
+  margin-left: $spacing-md-vw;
+}
+.ml-lg-vw {
+  margin-left: $spacing-lg-vw;
+}
+.ml-xl-vw {
+  margin-left: $spacing-xl-vw;
+}
+
+.mr-xs-vw {
+  margin-right: $spacing-xs-vw;
+}
+.mr-sm-vw {
+  margin-right: $spacing-sm-vw;
+}
+.mr-md-vw {
+  margin-right: $spacing-md-vw;
+}
+.mr-lg-vw {
+  margin-right: $spacing-lg-vw;
+}
+.mr-xl-vw {
+  margin-right: $spacing-xl-vw;
+}
+/* 字体大小 */
+.text-xs-vw {
+  font-size: var(--font-xs-vw);
+}
+.text-sm-vw {
+  font-size: var(--font-sm-vw);
+}
+.text-md-vw {
+  font-size: var(--font-md-vw);
+}
+.text-lg-vw {
+  font-size: var(--font-lg-vw);
+}
+.text-xl-vw {
+  font-size: var(--font-xl-vw);
+}
+
+/* 行高 */
+.leading-xs-vw {
+  line-height: var(--font-xs-vw);
+}
+.leading-sm-vw {
+  line-height: var(--font-sm-vw);
+}
+.leading-md-vw {
+  line-height: var(--font-md-vw);
+}
+.leading-lg-vw {
+  line-height: var(--font-lg-vw);
+}
+.leading-xl-vw {
+  line-height: var(--font-xl-vw);
+}
+
+/* 圆角 */
+.rounded-xs-vw {
+  border-radius: var(--radius-xs-vw);
+}
+.rounded-sm-vw {
+  border-radius: var(--radius-sm-vw);
+}
+.rounded-md-vw {
+  border-radius: var(--radius-md-vw);
+}
+.rounded-lg-vw {
+  border-radius: var(--radius-lg-vw);
+}
+.rounded-xl {
+  border-radius: var(--radius-xl);
+}

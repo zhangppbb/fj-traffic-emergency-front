@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d21a3f7"],{bb67:function(n,o,i){n.exports=i.p+"static/img/video-icon.05a0f93a.svg"}}]);

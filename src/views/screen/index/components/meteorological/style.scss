@@ -1,0 +1,78 @@
+.meteorological-container {
+  padding:  px2vw(16);
+
+    .waring-point-table {
+    color: #c4e5ff;
+    font-size: px2vw(12);
+
+    .td-body-container {
+      overflow: hidden;
+    }
+
+    .td-body {
+      background: rgba(0,54,130,0.51);
+
+
+      .cell.point {
+        color: #dab552;
+      }
+      .cell.level {
+        color: #da7f52;
+      }
+    }
+
+    // 单元格
+    .cell {
+      height: px2vh(24);
+      text-align: center;
+      line-height: px2vw(24);
+
+      img {
+        width: px2vw(20);
+      }
+    }
+
+    .cell.region {
+      width: 20%;
+    }
+    .cell.name {
+      width: 40%;
+    }
+    .cell.predict {
+      width: 40%;
+    }
+
+
+    & > .table-header {
+      position: relative;
+      & > .cell {
+        background-color: rgba(0,78,148,0.36);
+
+      }
+    }
+
+    & > .table-header::after,
+    & > .table-header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: px2vw(2); /* 上边框厚度 */
+      width: 100%;
+      // background: linear-gradient(
+      //   to right,
+      //   #00c3ff,
+      //   #4cb5c7,
+      //   #010404,
+      //   #4cb5c7,
+      //   #00c3ff
+      // );
+      z-index: 2;
+    }
+
+    // & > .table-header::after {
+    //   bottom: 0!important;
+    // }
+  }
+
+}

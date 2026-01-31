@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e1ef9"],{"7d0f":function(n,o,i){n.exports=i.p+"static/img/offline-icon.40f7305a.svg"}}]);

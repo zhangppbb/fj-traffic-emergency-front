@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0de2e4"],{"850a":function(n,c,p){n.exports=p.p+"static/img/displacement-icon.bdc972d8.svg"}}]);

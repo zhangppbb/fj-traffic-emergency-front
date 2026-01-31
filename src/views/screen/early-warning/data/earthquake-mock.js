@@ -1,0 +1,42 @@
+export const earthquakeData = [
+  {
+    roadName: "四川内江",
+    code: "3.4",
+    name: "2025-3-18 19:21:53",
+    lon: 104.59,
+    lat: 29.64,
+    depth: 8,
+  },
+  {
+    roadName: "四川内江",
+    code: "3.9",
+    name: "2025-3-18 19:20:44",
+    lon: 104.62,
+    lat: 29.67,
+    depth: 8,
+  },
+  {
+    roadName: "四川阿坝",
+    code: "3.1",
+    name: "2025-3-18 15:19:05",
+    lon: 103.44,
+    lat: 31.22,
+    depth: 10,
+  },
+  {
+    roadName: "新疆博尔塔拉",
+    code: "3.4",
+    name: "2025-3-18 04:52:21",
+    lon: 83.25,
+    lat: 44.42,
+    depth: 19,
+  },
+  {
+    roadName: "新疆克孜勒苏",
+    code: "3.0",
+    name: "2025-3-18 00:35:05",
+    lon: 75.71,
+    lat: 38.13,
+    depth: 114,
+  },
+];

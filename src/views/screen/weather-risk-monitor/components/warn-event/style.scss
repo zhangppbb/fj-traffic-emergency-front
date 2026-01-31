@@ -1,0 +1,9 @@
+.warn-event-component{
+  padding: px2vh(10) px2vw(10);
+  & > .card-item {
+    margin-bottom: px2vh(10);
+  }
+  & > .card-item:last-of-type {
+    margin-bottom: 0;
+  }
+}

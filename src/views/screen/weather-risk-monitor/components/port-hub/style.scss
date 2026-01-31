@@ -1,0 +1,134 @@
+$table-header-bg: linear-gradient(180deg, rgba(13,97,157,1) 100%,rgba(0,88,154,0.45) 2%);
+
+.highway-corridor-container {
+  max-height: px2vh(620);
+  overflow-y: auto;
+  color: #fff;
+    font-size: px2vw(13);
+    padding: px2vh(8) px2vw(8);
+    padding-top: 0;
+
+    .highway-corridor-content-container {
+
+      background-color: rgba(8,22,48,1);
+      box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);
+
+      & > .highway-corridor-header {
+        width: 5em;
+        height: px2vh(30);
+        line-height: px2vh(30);
+        background-image: url('./assets/images/type-bg.png');
+        background-size: 100% 100%;
+        padding-left: px2vw(8);
+        color: rgba(70,190,246,1);
+      }
+
+      & > .highway-corridor-item {
+        & > .title {
+          margin: px2vh(8) 0;
+          padding-left: px2vw(8);
+        }
+      }
+    // Table
+      & > .index-table {
+        & > .table-container {
+          .waring-point-table {
+          color: #fff;
+          font-size: px2vw(12);
+          // color: #9CA3BD;
+          .td-body-container {
+          }
+
+          .td-body {
+            background: rgba(0,54,130,0);
+          }
+
+          // 单元格
+          .cell {
+            height: px2vh(36);
+            text-align: center;
+            line-height: px2vw(36);
+          }
+
+          .cell.index {
+            width: 25%;
+          }
+          .cell.value {
+            width: 40%;
+          }
+         .cell.current {
+            width: 40%;
+          }
+          .cell.status {
+            width: 20%;
+          }
+
+
+          // 核心港区实时风力
+          .cell.area {
+            width: 20%;
+          }
+           .cell.wind-speed {
+            width: 20%;
+          }
+           .cell.real-time {
+            width: 20%;
+          }
+          .cell.visibility {
+            width: 10%;
+          }
+          .cell.weather {
+            width: 10%;
+          }
+          .cell.warn {
+            width: 20%;
+          }
+
+          // 在港待泊船舶数量
+          .cell.type {
+            width: 20%;
+          }
+
+           .cell.number {
+            width: 20%;
+          }
+           .cell.distribution {
+            width: 30%;
+          }
+          .cell.region {
+            width: 30%;
+          }
+
+
+          & > .table-header {
+              position: relative;
+              & > .cell {
+                background: $table-header-bg;
+              }
+              & > .cell-group  {
+                background: $table-header-bg;
+              }
+            }
+          }
+        }
+      }
+
+      // 走廊流速剖面图：
+      & > .corridor-container {
+
+        .line-chart-container {
+          height: px2vh(200);
+          background: #192C5C;
+        }
+      }
+
+      // 时空演变图
+      & > .time-space-container {
+        margin-top: px2vh(40);
+        .heatmap-chart-container {
+          background: #192C5C;
+          height: px2vh(132);
+        }
+      }
+    }
+}

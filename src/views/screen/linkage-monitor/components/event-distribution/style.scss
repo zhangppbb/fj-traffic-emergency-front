@@ -1,0 +1,29 @@
+.event-distribution {
+  padding: px2vh(10) px2vw(16);
+  & > .info-container {
+    flex-shrink: 0;
+    padding-right: px2vw(20);
+    .info-item {
+      margin-bottom: px2vh(10);
+      & > .name {
+        color: #fff;
+        font-size: px2vw(16);
+        margin-right: px2vw(10);
+      }
+
+      .value-container {
+        .value {
+          font-size: px2vw(36);
+        margin-right: px2vw(4);
+        }
+      }
+    }
+  }
+
+  // Chart
+  & > .chart-container {
+    flex: 1;
+    overflow: hidden;
+    height: px2vh(262);
+  }
+}

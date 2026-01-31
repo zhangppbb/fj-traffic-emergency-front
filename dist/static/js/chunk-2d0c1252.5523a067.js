@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c1252"],{4594:function(n,o,p){n.exports=p.p+"static/img/orange-icon.b071ae60.png"}}]);

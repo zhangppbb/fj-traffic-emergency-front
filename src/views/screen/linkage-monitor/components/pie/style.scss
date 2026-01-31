@@ -1,0 +1,19 @@
+.pie-container {
+  text-align: center;
+  color: #fff;
+  & > .pie {
+    background-color: rgba(16,16,16,0.67);
+    width: px2vh(99);
+    height: px2vh(99);
+    border-style: solid;
+    border-width: px2vw(4);
+    border-radius: 50%;
+    font-size: px2vw(28);
+    overflow: hidden;
+  }
+
+  & > .name {
+    margin-top: px2vh(8);
+    font-size: px2vw(16);
+  }
+}

@@ -1,0 +1,63 @@
+
+.screen-page {
+  width: 100vw;
+  height: 100vh;
+  background: #f000;
+
+
+  & > .screen-page-content {
+    & > .right-part {
+      right: 0;
+      z-index: 12;
+      margin-right: px2vw(30);
+    }
+
+    & > .part-container {
+      position: fixed;
+      width: px2vw(466);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+      height: calc(100vh - #{px2vh(74)});
+      margin-top: px2vh(74);
+      padding-bottom: px2vh(30);
+      // background: linear-gradient(
+      //   90deg,
+      //   rgba(9, 30, 55, 0.72) 0%,
+      //   rgba(11, 31, 52, 0.2) 100%
+      // );
+      top: 0;
+
+      // & > .chart-wrapper-item.domestic-card {
+      //   flex: 1;
+      //   height: 100%;
+      //   display: flex;
+      //   flex-direction: column;
+
+      //   ::v-deep {
+      //     & > .chart-content {
+      //       flex: 1;
+      //       height: 100%;
+      //     }
+      //   }
+      // }
+    }
+
+    // 地图
+    & > .middle-part {
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+
+    & > .left-part {
+      left: 0;
+      z-index: 10;
+      margin-left: px2vw(30);
+    }
+  }
+}

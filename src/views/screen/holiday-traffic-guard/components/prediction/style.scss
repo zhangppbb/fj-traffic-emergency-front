@@ -1,0 +1,31 @@
+.prediction-container {
+  font-size: px2vw(14);
+  padding: px2vh(16) px2vw(16);
+
+  // Header
+
+  & > .header-container {
+    .title {
+      color:  rgba(144,223,242,0.56);
+    }
+
+
+    .tab-container {
+      .text {
+        color: #fff;
+        margin-right: px2vw(20);
+      }
+      .text:last-of-type {
+        margin-right: 0;
+      }
+      .text.active {
+        color: #01FFF0;
+      }
+    }
+  }
+
+  // Chart
+  & > .chart-container{
+    height: px2vh(240);
+  }
+}

@@ -1,0 +1,23 @@
+.online-video-container {
+  width: 100%;
+  justify-content: space-between;
+  & > .video-item {
+    width: px2vw(440);
+    height: px2vh(270);
+    background-size: cover;
+    font-size: px2vw(14);
+    margin-right: px2vw(20);
+
+    & > .header-container {
+      height: px2vh(25);
+      padding: 0 px2vw(16);
+      line-height: px2vh(25);
+      background-color: rgba(16,16,16,0.5);
+      color: rgba(255,255,255,1);
+      font-size: px2vw(14);
+    }
+  }
+  & > .video-item:last-of-type {
+    margin-right: 0;
+  }
+}

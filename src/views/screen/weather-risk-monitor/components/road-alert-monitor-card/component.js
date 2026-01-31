@@ -1,0 +1,45 @@
+export default {
+  props: {
+    // 数据类型
+    type: {
+      type: String,
+      default: () => '严重拥堵'
+    },
+    datetime: {
+      type: String,
+      default: () => ' 2026-01-06 12:59:23'
+    },
+    // 信息列表
+    data: {
+      type: Array,
+      default: () => [
+        {
+          name: '路段名称：',
+          value: 'K101-K105泉州南安水头路段'
+        },
+         {
+          name: '所属高速：',
+          value: 'G25沈海高速'
+        },
+         {
+          name: '拥堵长度：',
+          value: '6公里'
+        },
+        {
+          name: '预计恢复时间：',
+          value: '12时50分'
+        }
+      ]
+    },
+    // 原因
+    reason: {
+      type: String,
+      default: () => '车流量大'
+    },
+    // 说明
+    description: {
+      type: String,
+      default: () => '预计台风峰值:14:30，受影响<br/>集卡预估:150辆<br/>主要成因:台风<br/>关注建议:关闭港口停航截流'
+    }
+  }
+}

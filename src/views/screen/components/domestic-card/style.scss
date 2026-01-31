@@ -1,0 +1,110 @@
+.domestic-card-container {
+  font-size: px2vw(14);
+  color: #fff;
+  // Card
+  & > .card-container {
+    padding: px2vh(20) 0;
+    & > .name {
+      font-size: px2vw(32);
+      margin-right: px2vw(40);
+    }
+
+    // 图例
+    & > .legends-container {
+      height: px2vh(190);
+      & > .legend-item {
+        margin-bottom: px2vh(20);
+        .icon {
+          width: px2vw(36);
+          margin-right: px2vw(20);
+        }
+
+        & > .info-container {
+          & > .name {
+            font-size: px2vw(16);
+          }
+          .value-container {
+            align-items: baseline;
+            padding-top: px2vh(5);
+            .value {
+              color: #00C6FF;
+              font-size: bold;
+              font-size: px2vw(20);
+              margin-right: px2vw(10);
+            }
+            .unit {
+              color: #26A0C8;
+            }
+          }
+        }
+      }
+      & > .legend-item:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  // Table
+  // Table
+  & > .table-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 px2vw(16);
+    // margin-top: px2vh(12);
+    .waring-point-table {
+    color: #fff;
+    font-size: px2vw(14);
+    // color: #9CA3BD;
+    .td-body-container {
+      height: px2vh(140);
+      overflow: hidden;
+    }
+
+    .td-body {
+      // background: rgba(0,54,130,0.4);
+      background: rgba(0,54,130,0.21);
+      // background: linear-gradient(180deg, rgba(13,97,157,0.5) 100%,rgba(0,88,154,0.45) 2%);
+    }
+
+    // 单元格
+    .cell {
+      height: px2vh(36);
+      text-align: center;
+      line-height: px2vw(36);
+    }
+    & > .table-header {
+      position: relative;
+      z-index: 1;
+      & > .cell {
+        // background-color: rgba(0,78,148,0.56);
+        background-color: rgba(0,78,148,0.56);
+      }
+    }
+  }
+  }
+
+  & > .imgs-container {
+    margin-top: px2vh(40);
+    padding: 0 px2vw(16);
+
+    .imgs-scroll-container {
+      height: px2vh(400);
+      overflow: hidden;
+    }
+    .img-item {
+      width: 100%;
+      height: px2vh(200);
+      background-size: 100% 100%;
+      margin-bottom: px2vh(20);
+
+       & > .header-container {
+        height: px2vh(25);
+        padding: 0 px2vw(16);
+        line-height: px2vh(25);
+        background-color: rgba(16,16,16,0.5);
+        color: rgba(255,255,255,1);
+        font-size: px2vw(14);
+      }
+    }
+  }
+}

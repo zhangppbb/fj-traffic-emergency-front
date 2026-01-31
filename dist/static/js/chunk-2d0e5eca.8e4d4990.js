@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e5eca"],{"970f":function(n,c,p){n.exports=p.p+"static/img/red-icon.110c507a.png"}}]);

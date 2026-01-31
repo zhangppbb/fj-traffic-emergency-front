@@ -1,0 +1,58 @@
+.device-status-monitor-container {
+  color: #fff;
+  font-size: px2vw(14);
+
+  // Chart
+  & > .gauge-container{
+      height: px2vh(182);
+    & > .chart-container {
+      width: px2vw(182);
+      overflow: hidden;
+      height: px2vh(182);
+      flex-shrink: 0;
+    }
+    & > .legend-container {
+      margin-left: px2vw(20);
+      font-size: px2vw(12);
+      .legend-item {
+        margin-bottom: px2vh(4);
+      }
+      .icon {
+        width: px2vh(6);
+        height: px2vh(6);
+        border-radius: 50%;
+        margin-right: px2vw(10);
+      }
+    }
+  }
+
+  & > .device-status-monitor{
+    & > .device-status-monitor-item {
+      margin-right: px2vw(10);
+      .icon-container {
+        // background-image: url('./assets/images/icon-bg.png');
+        // background-size: 100% 100%;
+        // width: px2vh(36);
+        // height: px2vh(36);
+        // margin-right: px2vw(10);
+
+        .icon {
+          width: px2vh(66);
+          height: px2vh(66);
+        }
+      }
+
+      & > .value-container{
+
+        .value {
+          color: #AED5E6;
+          font-size: px2vw(18);
+          margin-bottom: px2vvh(4);
+        }
+      }
+    }
+    & > .device-status-monitor-item:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

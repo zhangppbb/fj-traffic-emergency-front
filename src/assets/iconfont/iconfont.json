@@ -1,0 +1,16 @@
+{
+  "id": "5114184",
+  "name": "省级交通运行预警预测子系统",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8238409",
+      "name": "小人",
+      "font_class": "xiaoren",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

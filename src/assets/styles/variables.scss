@@ -1,0 +1,142 @@
+// UI 设计稿宽度统一定义
+$design-width: 1920;
+$design-height: 1080;
+
+/// px 转 vw
+@function px2vw($px, $base: $design-width) {
+  @return ($px / $base) * 100vw;
+}
+
+/// px 转 vw
+@function px2vh($px, $base: $design-height) {
+  @return ($px / $base) * 100vh;
+}
+
+$N00: #fff;
+
+// 主题色
+$Brand_1: #003b7d; // 按钮点击色/修饰色
+$Brand_color: #004898; // 默认色、通用按钮默认色、多选/单选选中色
+$Brand_3: #1361c6; // 主要按钮选用色/修饰色
+$Brand_4: #2b71c0; // 主按钮悬停色/修饰色
+$Brand_5: #439bff; // 次要按钮色/修饰色
+$Brand_6: #96c0f5; // 左侧导航icon默认色
+$Brand_7: #e2eefc; // 全局提示/修饰色/次要按钮色
+$Brand_8: #eff3f8; // 背景色/修饰色
+
+// 负面、不可行、严重、危险、失败等提示
+$Danger_1: #e11a1a; // 点击色
+$Danger_2: #ff2626; // 功能色
+$Danger_3: #ff5858; // 悬停色
+$Danger_4: #ffbebe; // 全局提示/修饰色
+$Danger_5: #fff0f0; // 次要按钮色/背景色
+
+// 正面、可行、安全、成功等提示
+$Success_1: #02b059; // 点击色
+$Success_2: #00c060; // 功能色
+$Success_3: #1fca74; // 悬停色
+$Success_4: #afe9cb; // 全局提示/修饰色
+$Success_5: #e4fdf1; // 次要按钮色/背景色
+
+// 注意、警告、阻止等提示
+$Warning_1: #ed9500; // 点击色
+$Warning_2: #ffa100; // 功能色
+$Warning_3: #ffba44; // 悬停色
+$Warning_4: #ffe6be; // 全局提示/修饰色
+$Warning_5: #fff3e5; // 次要按钮色/背景色
+
+// 文字、线框、背景色
+$Grey_1: #000; // 标题色
+$Grey_2: #333; // 主要文案
+$Grey_3: #666; // 次要文案
+$Grey_4: #999; // 辅助文字/禁用文字
+$Grey_5: #dcdcdc; // 边框色
+$Grey_6: #e7ebf0; // 分割线/禁用色
+$Grey_7: #eff4f9; // 背景色（区域）
+
+// 默认菜单主题风格
+$base-menu-color:#bfcbd9;
+$base-menu-color-active:#f4f4f5;
+$base-menu-background:#304156;
+$base-logo-title-color: #ffffff;
+
+$base-menu-light-color:rgba(0,0,0,.70);
+$base-menu-light-background: transparent;
+$base-logo-light-title-color: #001529;
+
+$base-sub-menu-background:#1f2d3d;
+$base-sub-menu-hover:#001528;
+
+// navbar
+$navbar-height: 50px;
+$navbar-main-menu-height: 70px;
+
+// Font
+$font-xs: 12px;
+$font-sm: 14px;
+$font-md: 16px;
+$font-lg: 18px;
+$font-xl: 20px;
+
+$font-xs-vw: px2vw(12);
+$font-sm-vw: px2vw(14);
+$font-md-vw: px2vw(16);
+$font-lg-vw: px2vw(18);
+$font-xl-vw: px2vw(20);
+
+// Container
+$spacing-model: 16px;
+$spacing-model-vw: px2vw(16);
+
+// 间距
+$spacing-xs: 10px;
+$spacing-sm: 20px;
+$spacing-md: 30px;
+$spacing-lg: 40px;
+$spacing-xl: 50px;
+
+$spacing-xs-vw: px2vw(10);
+$spacing-sm-vw: px2vw(20);
+$spacing-md-vw: px2vw(30);
+$spacing-lg-vw: px2vw(40);
+$spacing-xl-vw: px2vw(50);
+$spacing-xs-vh: px2vh(10);
+$spacing-sm-vh: px2vh(20);
+$spacing-md-vh: px2vh(30);
+$spacing-lg-vh: px2vh(40);
+$spacing-xl-vh: px2vh(50);
+
+// 圆角
+$radius-xs: 2px;
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 10px;
+$radius-xl: 50%;
+
+$radius-xs: px2vw(2);
+$radius-sm: px2vw(4);
+$radius-md: px2vw(8);
+$radius-lg: px2vw(10);
+
+// 表单
+$form-item-width: 220px;
+
+// Form
+$form-height: 30px;
+// 自定义暗色菜单风格
+/**
+$base-menu-color:hsla(0,0%,100%,.65);
+$base-menu-color-active:#fff;
+$base-menu-background:#001529;
+$base-logo-title-color: #ffffff;
+
+$base-menu-light-color:rgba(0,0,0,.70);
+$base-menu-light-background:#ffffff;
+$base-logo-light-title-color: #001529;
+
+$base-sub-menu-background:#000c17;
+$base-sub-menu-hover:#001528;
+*/
+
+$base-sidebar-width: 200px;
+$base-sidebar-content-width: 180px;

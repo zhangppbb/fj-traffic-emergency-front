@@ -1,0 +1,6 @@
+export { default as BridgeProfile } from './bridge-profile/index.vue'
+export { default as BeamTechnicalParams } from './beam-technical-params/index.vue'
+export { default as BridgeManageStatus } from './bridge-manage-status/index.vue'
+export { default as GeoImage } from './geo-image/index.vue'
+export { default as OnlineVideo } from './online-video/index.vue'
+export { default as StructureComponent } from './structure-component/index.vue'

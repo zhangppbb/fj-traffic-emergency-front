@@ -1,0 +1,15 @@
+.live-broadcast-container {
+  width: 100%;
+  height: px2vh(50);
+  color: rgba(255,255,255,1);
+  font-size: px2vw(12);
+  text-align: center;
+  background-color: #386AB3;
+  padding: px2vh(8) 0;
+  border-radius: px2vw(4);
+
+  .title {
+    font-weight: bold;
+    margin-bottom: px2vh(4);
+  }
+}

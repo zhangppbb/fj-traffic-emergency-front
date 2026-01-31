@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d237741"],{fad4:function(n,p,o){n.exports=o.p+"static/img/icon-bg.1e8a1f7b.png"}}]);

@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d22c867"],{f436:function(n,p,c){n.exports=c.p+"static/img/bg-content.21b925be.png"}}]);

@@ -1,0 +1,43 @@
+.road-alert-monitor-card {
+  color: #fff;
+  font-size: px2vw(13);
+  height: px2vh(222);
+  background-color: rgba(8,22,48,1);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);
+  .grey {
+    color: #CCD4F3;
+  }
+  // Header
+  & > .road-alert-monitor-header {
+    .type {
+      padding-left: px2vw(16);
+      width: px2vw(118);
+      height: px2vh(30);
+      font-size: px2vw(14);
+      background-image: url('./assets/images/type-bg.png');
+      background-size: 100% 100%;
+    }
+
+    .value {
+      word-break: break-word;
+    }
+
+    padding-right: px2vw(16);
+  }
+
+  // 数据信息
+  & > .info-container {
+    padding-left: px2vw(16);
+    line-height: px2vh(24);
+  }
+
+  // 原因
+  & > .reason-container {
+    padding: 0 px2vw(16);
+    .reason-content{
+      background-color: rgba(156,163,189,0.63);
+      padding: px2vh(2) px2vh(10);
+  font-size: px2vw(12);
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.online-video-container {
+  padding:  px2vh(16) px2vw(40);
+  & > .video-item {
+    width: px2vw(256);
+    height: px2vh(182);
+    background-size: cover;
+    font-size: px2vw(14);
+
+    & > .header {
+      height: px2vh(25);
+      padding-left: px2vw(16);
+      line-height: px2vh(24);
+      background-color: rgba(16,16,16,0.5);
+      color: rgba(255,255,255,1);
+      font-size: px2vw(14);
+    }
+  }
+}

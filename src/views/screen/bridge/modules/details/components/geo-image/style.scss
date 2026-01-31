@@ -1,0 +1,26 @@
+.geo-image-container {
+  color: #fff;
+  padding: px2vh(20);
+  & > .info-container {
+    margin-bottom: px2vh(10);
+    font-size: px2vw(12);
+    font-weight: bold;
+    .value {}
+    .text {}
+  }
+  & > .info-container:last-of-type {
+    margin-bottom: 0;
+  }
+
+  // Img
+  & > .imgs-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    .img {
+      margin: px2vw(10);
+      width: px2vh(180);
+      height: px2vh(120);
+      background-size: cover;
+    }
+  }
+}

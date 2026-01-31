@@ -1,0 +1,140 @@
+<template>
+  <div class="disaster-preview-container flex">
+    <!-- 左侧列表 -->
+    <div class="left-container overflow-y-auto">
+      <div
+        v-for="(item, index) in data"
+        :key="item.id"
+        :class="[
+          'disaster-item flex items-center cursor-pointer w-full',
+          activeIndex === index ? 'active': ''
+        ]"
+        @click="handleClick(index)"
+      >
+        <img class="icon mr-xs-vw" :src="activeIndex === index ? VideoActive : VideoIcon" alt="" srcset="">
+        <span class="text">{{ item.name }}</span>
+      </div>
+    </div>
+
+    <!-- 右侧内容区域 -->
+    <div class="video-container">
+      <!-- <div class="text-[20px] font-bold mb-[8px]">{{ activeItem.name }}</div> -->
+
+      <!-- 媒体显示 -->
+      <!-- <div class="relative w-full h-[320px]">
+        <img
+          v-if="activeItem.type === 'image'"
+          :src="activeItem.url"
+          class="w-full h-full object-cover"
+          alt="灾害点图片"
+        />
+        <video
+          v-else
+          :src="activeItem.url"
+          class="w-full h-full object-cover"
+          controls
+        ></video> -->
+
+        <!-- 底部时间 -->
+        <!-- <div class="absolute bottom-[8px] left-[8px] text-[14px]">
+          {{ activeItem.time }}
+        </div> -->
+
+        <!-- 放大图标 -->
+        <!-- <div
+          class="absolute bottom-[8px] right-[8px] cursor-pointer"
+          @click="handleFullscreen"
+        >
+          <img src="@/assets/expand-icon.svg" class="w-[24px] h-[24px]" alt="放大" />
+        </div> -->
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import VideoIcon from './assets/video.png'
+import VideoActive from './assets/video-icon.png'
+
+export default {
+  name: "DisasterPreview",
+  props: {
+    data: {
+      type: Array,
+      required: true,
+      // 数据格式见上方说明
+    }
+  },
+  data() {
+    return {
+      VideoIcon,
+      VideoActive,
+      activeIndex: 0 // 当前选中的灾害点索引
+    };
+  },
+  computed: {
+    activeItem() {
+      return this.data[this.activeIndex] || {};
+    }
+  },
+  methods: {
+    /**
+     * 切换选中项
+     * @param {number} index - 选中的索引
+     */
+    handleClick(index) {
+      this.activeIndex = index;
+    },
+
+    /**
+     * 触发放大查看
+     * 当前实现使用浏览器全屏 API
+     */
+    handleFullscreen() {
+      const mediaEl = this.$el.querySelector("img, video");
+      if (mediaEl && mediaEl.requestFullscreen) {
+        mediaEl.requestFullscreen();
+      } else {
+        this.$message && this.$message.warning("当前浏览器不支持全屏");
+      }
+    }
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+.disaster-preview-container {
+  & > .left-container {
+    width: px2vw(109);
+    height: px2vw(220);
+    .disaster-item {
+      height: px2vw(23);
+      line-height: px2vw(23);
+      .icon {
+        width: px2vw(12);
+        height: px2vw(14);
+      }
+
+      .text {
+        color: #C7E5FF;
+        font-size: px2vw(14);
+      }
+    }
+    // active
+    .disaster-item.active {
+      background: rgba(0,0,0,0.25);
+
+      .text {
+        color: #00FAFD;
+      }
+    }
+  }
+
+  // video-container
+  & > .video-container {
+    width: px2vw(294);
+    height: px2vw(220);
+    border: 1px solid red;
+  }
+}
+</style>

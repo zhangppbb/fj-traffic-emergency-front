@@ -1,0 +1,11 @@
+.infrastructure-warn-monitor-container {
+  color: #fff;
+  font-size: px2vw(14);
+  padding: px2vh(16) px2vw(16);
+
+  & > .chart-container {
+    overflow: hidden;
+    height: px2vh(240);
+    flex-shrink: 0;
+  }
+}

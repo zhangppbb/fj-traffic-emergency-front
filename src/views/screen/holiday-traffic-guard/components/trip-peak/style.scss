@@ -1,0 +1,88 @@
+.monitor-table-container {
+  // padding-top: px2vh(14);
+  // padding-bottom: px2vh(20);
+  // padding-right: px2vw(20);
+  // padding-left: px2vw(20);
+
+  // Table
+  & > .table-container {
+    // margin-top: px2vh(12);
+    .waring-point-table {
+    color: #fff;
+    font-size: px2vw(14);
+    // color: #9CA3BD;
+    .td-body-container {
+    }
+
+    .td-body {
+      // background: rgba(0,54,130,0.4);
+      background: rgba(0,54,130,0.21);
+      // background: linear-gradient(180deg, rgba(13,97,157,0.5) 100%,rgba(0,88,154,0.45) 2%);
+    }
+
+    // 单元格
+    .cell {
+      height: px2vh(36);
+      text-align: center;
+      line-height: px2vw(36);
+    }
+    .cell.rank {
+      width: 10%;
+    }
+
+    .cell.name {
+      width: 15%;
+    }
+
+    .cell.city {
+      width: 20%;
+    }
+
+     .cell.land {
+      width: 15%;
+    }
+
+    .cell.value {
+      width: 25%;
+      .index-container {
+        .icon {
+          margin-right: px2vw(-5);
+        }
+      }
+    }
+   .cell.index {
+      width: 15%;
+    }
+    & > .table-header {
+      position: relative;
+      & > .cell {
+        // background-color: rgba(0,78,148,0.56);
+        background-color: rgba(0,78,148,0.56);
+      }
+    }
+
+    // & > .table-header::after,
+    // & > .table-header::before {
+    //   content: "";
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   height: px2vw(2); /* 上边框厚度 */
+    //   width: 100%;
+    //   // background: linear-gradient(
+    //   //   to right,
+    //   //   #00c3ff,
+    //   //   #4cb5c7,
+    //   //   #010404,
+    //   //   #4cb5c7,
+    //   //   #00c3ff
+    //   // );
+    //   z-index: 2;
+    // }
+
+    // & > .table-header::after {
+    //   bottom: 0!important;
+    // }
+  }
+  }
+}

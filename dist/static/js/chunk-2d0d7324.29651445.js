@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0d7324"],{"767f":function(n,c,p){n.exports=p.p+"static/img/central-icon.0fd9bca9.png"}}]);

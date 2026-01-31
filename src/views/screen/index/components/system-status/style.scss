@@ -1,0 +1,9 @@
+.system-status-container {
+  color: #fff;
+  padding: px2vh(10) px2vw(16);
+  font-size: px2vw(12);
+
+  & > .system-item {
+    width: 100%;
+  }
+}

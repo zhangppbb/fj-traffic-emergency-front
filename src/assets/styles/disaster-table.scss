@@ -1,0 +1,77 @@
+.disaster-point-table {
+  color: #C4E5FF;
+  font-size: px2vw(12);
+
+  .td-body-container {
+    height: px2vw(200);
+    overflow: hidden;
+  }
+
+  .td-body {
+    background: linear-gradient(90deg, #0D244B 0%, #1C4180 50%, #0D244B 100%);
+    $warnColor: #da7f52;
+    $successColor: #05EFFE;
+
+    .cell.warn-text {
+      color: $warnColor;
+    }
+    .cell.success-text {
+      color: $successColor;
+    }
+
+    .cell.warn-text::before {
+      background-color: $warnColor;
+    }
+    .cell.success-text::before {
+      background-color: $successColor;
+    }
+  }
+
+  // 单元格
+  .cell {
+    height: px2vw(30);
+    text-align: center;
+    line-height: px2vw(30);
+  }
+  & > .table-header {
+    position: relative;
+    & > .cell {
+      background-color: #12457E;
+    }
+  }
+
+  & > .table-header::after,
+  & > .table-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: px2vw(2); /* 上边框厚度 */
+    width: 100%;
+    background: linear-gradient(to right, #00C3FF, #4CB5C7, #010404, #4CB5C7, #00C3FF);
+    z-index: 2;
+  }
+
+  & > .table-header::before {
+    top: px2vw(30)!important;
+  }
+}
+
+// 下发任务
+.issue-button-container {
+  margin: 0 auto;
+  width: px2vw(302);
+  height: px2vw(45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('~@/assets/images/issue-button-bg.png');
+  background-size: 100% 100%;
+  font-weight: bold;
+  cursor: pointer;
+
+  .icon {
+    width: px2vw(16);
+    height: px2vw(16);
+  }
+}

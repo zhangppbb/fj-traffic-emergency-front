@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d20889b"],{a4e7:function(n,p,o){n.exports=o.p+"static/img/grade1-bg.45d80895.png"}}]);

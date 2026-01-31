@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d2091ce"],{a856:function(n,p,c){n.exports=c.p+"static/img/text-bg.5befb5f4.png"}}]);
