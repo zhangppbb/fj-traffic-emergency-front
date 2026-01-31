@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d22fc98"],{ea06:function(n,p,a){n.exports=a.p+"static/img/disaster-total.a6464239.png"}}]);

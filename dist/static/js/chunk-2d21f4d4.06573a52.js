@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d21f4d4"],{d8f0:function(n,o,p){n.exports=p.p+"static/img/yellow-icon.bc1e503e.png"}}]);

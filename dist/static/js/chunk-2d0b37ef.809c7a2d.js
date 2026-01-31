@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b37ef"],{"292d":function(n,o,p){n.exports=p.p+"static/img/total-icon.e648a5bd.svg"}}]);

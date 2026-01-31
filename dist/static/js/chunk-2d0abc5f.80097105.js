@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0abc5f"],{1769:function(t,e,n){"use strict";n.r(e),e["default"]={props:{data:{type:Array,default:function(){return[{title:"・寒潮雨雪冰冻天气东移，主要影响G60沪昆高速东段注意道路结冰风险。"},{title:"・强降水东移，预计G25永安—武平高速公路拥堵将加剧。"},{title:"・寒潮雨雪冰冻天气东移，预计G60沪昆高速东段拥堵加剧。"}]}}}}}}]);

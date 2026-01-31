@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d22510f"],{e38c:function(e,a,n){"use strict";n.r(a);n("3ae7"),n("21ec"),n("c5de");var t=n("99f7"),c=n.n(t),d=n("25a1"),u=n.n(d);a["default"]={data:function(){return{videos:[{name:"鼓山大桥-桥墩右侧监控",datetime:" 2026年1月16日 11:12:15",url:c.a},{name:"鼓山大桥-桥墩左侧监控",datetime:" 2026年1月16日 11:12:15",url:u.a}]}}}}}]);

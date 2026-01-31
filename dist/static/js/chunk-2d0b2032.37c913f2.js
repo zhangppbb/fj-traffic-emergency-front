@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b2032"],{"21fc":function(n,c,i){n.exports=i.p+"static/img/text-already-rectified-icon.5a6d2af6.png"}}]);

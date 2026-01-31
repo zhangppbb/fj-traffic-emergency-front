@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d20827b"],{a41c:function(s,n,c){s.exports=c.p+"static/img/stress-icon.1b644411.svg"}}]);

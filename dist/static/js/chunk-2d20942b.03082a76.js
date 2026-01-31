@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d20942b"],{a7fe:function(n,i,o){n.exports=o.p+"static/img/vibration-icon.738c9fe1.svg"}}]);

@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c8804"],{"54c2":function(n,t,e){"use strict";e.r(t);e("a9e3");t["default"]={props:{value:{type:String|Number,data:function(){return 0}},name:{type:String,default:function(){return" "}},color:{type:String,default:function(){return" "}}}}}}]);

@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0a47fd"],{"0766":function(n,o,p){n.exports=p.p+"static/img/southern-icon.50656bd2.png"}}]);

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient_1">
+      <stop offset="0" stop-color="#54C7EA" />
+      <stop offset="1" stop-color="#3462BF" />
+    </linearGradient>
+    <path d="M31 0C13.8792 0 0 13.8792 0 31C0 48.1208 13.8792 62 31 62L31 62C48.1208 62 62 48.1208 62 31" id="path_1" />
+    <path d="M22 44C34.1503 44 44 34.1503 44 22C44 9.84974 34.1503 0 22 0C9.84974 0 0 9.84974 0 22C0 34.1503 9.84974 44 22 44Z" transform="translate(9 9)" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="home_icon_citytotal">
+    <g id="编组-4">
+      <g id="路径">
+        <g clip-path="url(#clip_1)">
+          <use xlink:href="#path_1" fill="none" stroke="url(#gradient_1)" stroke-width="6" />
+        </g>
+      </g>
+      <path d="M1.5 3C2.32843 3 3 2.32843 3 1.5C3 0.671573 2.32843 0 1.5 0C0.671573 0 0 0.671573 0 1.5C0 2.32843 0.671573 3 1.5 3Z" transform="matrix(0.17364822 0.9848077 -0.9848077 0.17364822 61.355392 24.6321)" id="椭圆形" fill="#18DBFD" fill-rule="evenodd" stroke="none" />
+      <path d="M1.5 3C2.32843 3 3 2.32843 3 1.5C3 0.671573 2.32843 0 1.5 0C0.671573 0 0 0.671573 0 1.5C0 2.32843 0.671573 3 1.5 3Z" transform="matrix(0.34202015 0.9396926 -0.9396926 0.34202015 59.78845 19.457684)" id="椭圆形" fill="#18DBFD" fill-rule="evenodd" stroke="none" />
+      <path d="M1.5 3C2.32843 3 3 2.32843 3 1.5C3 0.671573 2.32843 0 1.5 0C0.671573 0 0 0.671573 0 1.5C0 2.32843 0.671573 3 1.5 3Z" transform="matrix(0.49999997 0.86602545 -0.86602545 0.49999997 57.346786 14.633975)" id="椭圆形" fill="#18DBFD" fill-rule="evenodd" stroke="none" />
+      <path d="M1.5 3C2.32843 3 3 2.32843 3 1.5C3 0.671573 2.32843 0 1.5 0C0.671573 0 0 0.671573 0 1.5C0 2.32843 0.671573 3 1.5 3Z" transform="matrix(0.64278764 0.76604444 -0.76604444 0.64278764 54.10459 10.30754)" id="椭圆形" fill="#18DBFD" fill-rule="evenodd" stroke="none" />
+      <path d="M1.5 3C2.32843 3 3 2.32843 3 1.5C3 0.671573 2.32843 0 1.5 0C0.671573 0 0 0.671573 0 1.5C0 2.32843 0.671573 3 1.5 3Z" transform="matrix(0.76604444 0.6427876 -0.6427876 0.76604444 50.16037 6.6098347)" id="椭圆形" fill="#18DBFD" fill-rule="evenodd" stroke="none" />
+      <path d="M1.5 3C2.32843 3 3 2.32843 3 1.5C3 0.671573 2.32843 0 1.5 0C0.671573 0 0 0.671573 0 1.5C0 2.32843 0.671573 3 1.5 3Z" transform="matrix(0.8660254 0.5 -0.5 0.8660254 45.633976 3.6532125)" id="椭圆形" fill="#18DBFD" fill-rule="evenodd" stroke="none" />
+      <path d="M1.5 3C2.32843 3 3 2.32843 3 1.5C3 0.671573 2.32843 0 1.5 0C0.671573 0 0 0.671573 0 1.5C0 2.32843 0.671573 3 1.5 3Z" transform="matrix(0.9396926 0.34202012 -0.34202012 0.9396926 40.662933 1.5275087)" id="椭圆形" fill="#18DBFD" fill-rule="evenodd" stroke="none" />
+      <path d="M1.5 3C2.32843 3 3 2.32843 3 1.5C3 0.671573 2.32843 0 1.5 0C0.671573 0 0 0.671573 0 1.5C0 2.32843 0.671573 3 1.5 3Z" transform="matrix(0.9848077 0.17364818 -0.17364818 0.9848077 35.398285 0.2973115)" id="椭圆形" fill="#18DBFD" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="椭圆形">
+      <g clip-path="url(#clip_2)">
+        <use xlink:href="#path_2" fill="none" stroke="url(#gradient_1)" stroke-width="6" />
+      </g>
+    </g>
+  </g>
+</svg>

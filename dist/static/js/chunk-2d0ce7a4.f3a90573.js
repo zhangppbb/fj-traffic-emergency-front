@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0ce7a4"],{"602f":function(n,c,i){n.exports=i.p+"static/img/text-rectification-icon.bb54bdb0.png"}}]);

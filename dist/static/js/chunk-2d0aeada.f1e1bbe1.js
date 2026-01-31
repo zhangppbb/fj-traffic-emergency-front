@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0aeada"],{"0aa4":function(a,i,n){a.exports=n.p+"static/img/high-risk-warning.2634a55f.gif"}}]);

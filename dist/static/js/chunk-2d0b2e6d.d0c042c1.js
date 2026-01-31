@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b2e6d"],{"25a5":function(n,o,p){n.exports=p.p+"static/img/northern-icon.08fc14bb.png"}}]);
